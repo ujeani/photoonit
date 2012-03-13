@@ -1,0 +1,173 @@
+.ui-page {
+    background: #ffffff;
+}
+
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:active { text-decoration: none;}
+a:hover {text-decoration: none;}
+
+img.psb_photo {
+    width: 100%;
+}
+
+img.psb_compose_photo {
+    width: 125px;
+    display: block; 	
+}
+
+#compose_photo {
+    margin-left: 5%;
+    width: 95%;
+}
+
+#psb_header {
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    background: #ffffff;
+}
+
+#psb_divider {
+    top: 50px; 
+    left: 0px;
+    height: 2px;
+    width: 100%;
+    background: #000000;
+}
+
+#psb_blank {
+    top: 52px;
+    left: 0px;
+    height: 10px;
+    width: 100%;
+    background: #ffffff;
+}
+
+img.img_menu_icon {
+    width:  32px;
+    height: 32px;
+    vertical-align: middle
+}
+
+
+img.img_info_icon {
+    width:  16px;
+    height: 16px;
+    vertical-align: middle
+}
+
+#psb_header_text {
+    position: absolute;
+    top: 16px;
+    width: 100%;
+    text-align: center;	
+    vertical-align: middle;
+    color: #c61a20;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#psb_menu_camera {
+    position: absolute;
+    top: 11px;
+    right: 11px;	
+}
+
+#psb_menu_cancel {
+    position: absolute;
+    top: 11px;
+    left: 11px;	
+}
+
+#psb_login_text {
+    position: absolute;
+    top: 110px;
+    left: 72px;
+    text-align: center;
+}
+
+img.login_logo {
+    position: absolute;
+    width: 176px;
+    display: block;
+}
+
+#psb_login_button {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    text-align: center;	
+}
+
+#photolist_photo {
+    width: 100%;
+}
+
+#photolist_infos {
+    text-align: right;	
+    height: 25px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#photolist_message {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+#photolist_comments {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+img.comment_profile_image {
+    width: 50px;
+    height: 50px;	
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.div_comment_element {
+    position: relative; 
+    left: 0px;
+    width:100%;
+    border-bottom: 1px solid white;
+}
+
+.div_comment_profile_image {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 50px;
+}
+
+.div_comment_user_name {
+    position: absolute;
+    top: 2px;
+    left: 60px;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.div_comment_message {
+    position: relative; 
+    top: -30px;
+    left: 60px;
+    width: 80%;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.div_form {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}

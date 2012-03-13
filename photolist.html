@@ -1,0 +1,28 @@
+<div data-role="page" id="page_photolist">
+    <div id=psb_header>
+        <div id=psb_header_text>Photo Onit!</div>
+        <div id=psb_menu_camera></div>
+    </div>
+	
+    <div id=psb_divider></div>
+    <div id=psb_blank></div>
+    <div id=photolist_photo></div>
+    <div id=photolist_infos></div>
+    <div id=photolist_message></div>
+    <div id=photolist_comments></div>
+
+    <div class=div_form id=div_photolist_form>
+        <form id="photolist_form" name="photolist_form" 
+              action="javascript:psbPhotoListProcForm(document.photolist_form)">
+            <input type="hidden" name="photolist_id" id="pid" value="" />
+            <div data-role="fieldcontain">
+                <textarea cols="40" rows="10"  autocorrect="off"
+                          autofocus="autofocus" autocapitalize="off" 
+                          maxlength="1000" name="photolist_comment_message" 
+                          id="photolist_comment_message" value=""></textarea>
+                <button type="submit" name="photolist_comment_submit" 
+                        value="submit_value" data-inline="true">보내기</button>
+            </div>	
+        </form>
+    </div>
+</div> <!-- /page -->
